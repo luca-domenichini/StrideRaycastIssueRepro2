@@ -1,11 +1,27 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 16
-VisualStudioVersion = 16.0.0.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 16.0.0.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaycastBugRepro.Windows", "RaycastBugRepro.Windows\RaycastBugRepro.Windows.csproj", "{DEBECD76-CBDE-4414-99FE-2825EC68DB2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaycastBugRepro", "RaycastBugRepro\RaycastBugRepro.csproj", "{BCD0A526-014B-46DA-8292-4E82E240A18E}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBECD76-CBDE-4414-99FE-2825EC68DB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBECD76-CBDE-4414-99FE-2825EC68DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBECD76-CBDE-4414-99FE-2825EC68DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBECD76-CBDE-4414-99FE-2825EC68DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD0A526-014B-46DA-8292-4E82E240A18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD0A526-014B-46DA-8292-4E82E240A18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD0A526-014B-46DA-8292-4E82E240A18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD0A526-014B-46DA-8292-4E82E240A18E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 EndGlobal
