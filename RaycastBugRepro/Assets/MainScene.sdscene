@@ -1,0 +1,1535 @@
+!SceneAsset
+Id: 119c273f-422a-4398-a38f-bc02de2d7a62
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 9d8e0cb6-5349-400d-aaa1-bf0f8613454f
+        - ref!! fc8e1ee4-765b-496b-8560-98df0920c44f
+        - ref!! 90b77e4b-688d-4364-818c-eeea17a28b1c
+        - ref!! 7ece6b3f-f537-4f94-a21e-c187e37a2e45
+        - ref!! 3d1962d6-c967-47ca-88fa-1bdf9da40850
+        - ref!! 5cc44142-8828-45a9-bb6c-6517417d4550
+        - ref!! 9658f36c-f292-472d-a906-2716058461ee
+        - ref!! 7982c48c-c639-49c4-a971-aa5b82bf53bd
+        - ref!! 830a2e32-380f-4966-a92a-48558e0e5596
+        - ref!! 3439c187-a70c-4eb5-8fc2-e40db11d6155
+        - ref!! cada5239-c687-40a4-a8d8-b1b93d0d125c
+        - ref!! dc32c243-b053-43a6-b94b-d39d161bb19d
+        - ref!! de3d834b-8672-4a9e-af6e-3efceddbb466
+        - ref!! e4aae835-8c11-4995-80c3-589a63d65470
+        - ref!! 7b512a4b-e328-414b-8bd8-2425b8b8ae15
+        - ref!! e4bc2868-9775-43a4-8f48-2e1470466fd0
+        - ref!! 55bfc72d-13a8-4e68-81ca-955da729e00d
+        - ref!! 068c2660-dbec-4777-bac0-60bf9129fe2d
+        - ref!! f89569e8-e17c-40df-a999-32e1bf093720
+        - ref!! 611109e5-7e92-4425-bd75-c629ec6339ae
+        - ref!! fccc9769-17bc-428c-937d-084610977a9a
+        - ref!! 7ec1021c-b1b6-4265-ae17-80126c350a63
+        - ref!! 51137582-569d-4e92-8ee0-0a251cf5b164
+        - ref!! e258eac2-d707-48a8-a192-29db132ed6f3
+        - ref!! b2be69d9-8a35-4d52-b8d8-604553b6be95
+        - ref!! 04cd624c-ff6e-4754-93ae-de7d24d255ec
+        - ref!! 02801b01-4279-4c47-b632-c2d828d6dd0e
+        - ref!! 631beb53-0f7f-45c5-9cc4-8144da108327
+        - ref!! e73bdee5-5e27-4333-a9f6-f275392e92bb
+        - ref!! 97d2c4cc-e8ab-4332-a847-0f71e3fe95ed
+        - ref!! 86d39cee-d6f0-4a3b-b732-19f57291edfc
+        - ref!! ce378de4-fc2b-4c86-baad-9f277ba79004
+        - ref!! eefeea22-0938-4c1c-94e3-c321fb6a7700
+        - ref!! f70a7809-441f-435a-8563-7ca6fb7b4bce
+        - ref!! f2e8de09-2f78-4c86-9908-66519c252634
+        - ref!! a439b2c4-d4c1-47cc-8a11-617d74262bfb
+        - ref!! a0f6deef-543d-433a-9302-9281cd3b7150
+        - ref!! 1d2253a8-2fbb-4451-8593-708eee6b1d37
+        - ref!! 0ab91566-57a0-48d0-8065-db96fd547ff4
+        - ref!! 8b210b5c-a3c5-410e-aa62-b51f084ee19c
+        - ref!! 42d8cddf-b819-499b-810b-8d9fde52d817
+        - ref!! b019585b-b3b9-4c94-92c7-527ec0ea561d
+        - ref!! 9f3eeef5-2098-49bf-8364-8ce5142917ff
+        - ref!! 9b0146cb-ec45-439b-b944-b0d5e8e1b6c4
+        - ref!! 9a11ee27-c523-4b98-9fb2-9bcf98817c37
+        - ref!! 81120b01-f933-4fc0-b84f-459ef9bddb2e
+        - ref!! cffe63c8-a956-4d09-b1d3-9333b8467fdc
+        - ref!! ef748590-7b9f-457e-9042-6e4b4767a5ae
+        - ref!! 3b6cf51f-5cec-4b0d-8e21-ea741b497d07
+        - ref!! 5c86cc54-5a02-464f-b8ad-f3421445e32d
+        - ref!! c5c4c1c4-9e48-419e-a466-9867cfca0ef3
+        - ref!! 300bafd0-6ce8-4ffd-8cc8-9260f658dc94
+    Parts:
+        -   Entity:
+                Id: 02801b01-4279-4c47-b632-c2d828d6dd0e
+                Name: Cube23
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 230a18a0-4e38-452f-9597-f4a0f3866200
+                        Position: {X: -44.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: be99c520-23ee-47ff-84fa-2b14a2be1020
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 3b59bf4f-0b4c-408c-883e-cde28de32752
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 04cd624c-ff6e-4754-93ae-de7d24d255ec
+                Name: Cube22
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: fe9b7e19-7cf6-41a9-8b65-5b35674c936a
+                        Position: {X: -42.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: e92a6c53-d7ff-42c6-a125-d801c10f6d79
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 82582d96-051a-4cf4-af87-63a1f5f87414
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 068c2660-dbec-4777-bac0-60bf9129fe2d
+                Name: Cube14
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 50793f9a-a094-4d08-a3b7-2459be67fef5
+                        Position: {X: -26.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 4a38bd95-7c81-4815-bd24-f154d8f6d0d8
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 3e916537-7c63-4478-b7be-c8099c55af7e
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 0ab91566-57a0-48d0-8065-db96fd547ff4
+                Name: Cube35
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 7555a6e2-2d45-48fd-bab0-8550092a29c5
+                        Position: {X: -68.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 926212b3-1690-4f5d-b0a6-e9f2cb36f721
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 3d19c5a2-182e-484e-b54d-4c62e9413e99
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 1d2253a8-2fbb-4451-8593-708eee6b1d37
+                Name: Cube34
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 6aea507d-e6fd-4051-883a-d0f42fd4c7cb
+                        Position: {X: -66.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 87b093b0-6e0f-45e6-829a-f677efa2c8db
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 0c6dfef4-894b-40d1-a756-4c8e80c4b920
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 300bafd0-6ce8-4ffd-8cc8-9260f658dc94
+                Name: Cube48
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 66d140df-5437-438f-994b-f486988eeedd
+                        Position: {X: -94.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: ef6f2a7b-e7e8-48bc-90be-5807a840639a
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 82ed91c3-b0bd-4f2c-9bc2-c8de560a9b33
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 3439c187-a70c-4eb5-8fc2-e40db11d6155
+                Name: Cube6
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 5554fa24-ad8c-4a6b-b331-4633689cf075
+                        Position: {X: -10.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: ca988b77-1424-4c4e-8cd1-d8abbde667be
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: cd11083c-5405-4092-aebf-fb756f31c193
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 3b6cf51f-5cec-4b0d-8e21-ea741b497d07
+                Name: Cube45
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 093cea3b-3635-4e3e-a1a4-f88f19dfd5fe
+                        Position: {X: -88.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 6609b7a7-2482-4a66-b83d-e916a8bf9247
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 14792a8f-9b93-40c7-8cb6-5695128f9882
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 3d1962d6-c967-47ca-88fa-1bdf9da40850
+                Name: Cube1
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 04573ca3-bf9b-4339-8a5c-05df2631c37f
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 66e2f256-867b-455c-839e-7d44b915f09d
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 54996d31-12c4-44cb-8688-1cdb6e8259ad
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 42d8cddf-b819-499b-810b-8d9fde52d817
+                Name: Cube37
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 93eec8c3-0899-4569-b48c-67a26b0a896e
+                        Position: {X: -72.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: baffd6cf-3e5b-42ec-b725-e07e14644958
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 7b9a6b2f-2ff5-4eb6-b657-cf938bf7121f
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 51137582-569d-4e92-8ee0-0a251cf5b164
+                Name: Cube19
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: be121a3e-4453-4c7d-9e7a-22d09b5e0a0e
+                        Position: {X: -36.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 6ad01fca-235d-40c0-92f1-1ee2eac4c282
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: c51451c3-72b7-4b98-9090-63a3c3607249
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 55bfc72d-13a8-4e68-81ca-955da729e00d
+                Name: Cube13
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 3fb22947-6c1b-4b6a-956a-c81a7b09be77
+                        Position: {X: -24.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 6cee47e9-35b6-4aac-91d6-a88b65feaff9
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 9a2786a4-e4af-470e-a353-13b955cef624
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 5c86cc54-5a02-464f-b8ad-f3421445e32d
+                Name: Cube46
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 500e6ac9-0af7-4925-af7c-28db85cb47aa
+                        Position: {X: -90.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 6bda1b20-f855-458a-a3ac-122e50060cfd
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 89f4e93e-ab6c-4cf2-8a4d-78c7bc629777
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 5cc44142-8828-45a9-bb6c-6517417d4550
+                Name: Cube2
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: ace194c0-ec93-40e2-92c1-4a80f44510b9
+                        Position: {X: -2.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 0214d5d6-78a1-433a-88ff-b4ddfe687ca3
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 50c7741a-523e-4dbc-a1dd-2f397461751c
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 611109e5-7e92-4425-bd75-c629ec6339ae
+                Name: Cube16
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 2940648c-3568-4642-9018-25e58e9fc123
+                        Position: {X: -30.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 7dc8332e-1d46-406b-9cb2-97126dbd9f62
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 7583bbe0-7746-42c7-bbcd-f2bfcbf8cc81
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 631beb53-0f7f-45c5-9cc4-8144da108327
+                Name: Cube24
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 5508d143-c6b2-4d8a-8076-0931b814a654
+                        Position: {X: -46.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 013e61d8-546c-42a2-9cc1-a61c44c7e2bf
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 09586f5d-393d-483d-a004-7861501c0b37
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 7982c48c-c639-49c4-a971-aa5b82bf53bd
+                Name: Cube4
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 473ec130-cebc-45de-a1c8-1a60d9ea9714
+                        Position: {X: -6.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: ace14be7-c993-41aa-afc7-8b39d4d3286f
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 4e3d328f-e591-4105-a840-ec9182499aae
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 7b512a4b-e328-414b-8bd8-2425b8b8ae15
+                Name: Cube11
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 93af881f-934f-43dc-841a-ae0ce96e198d
+                        Position: {X: -20.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 3de9339e-c8be-40e0-ac95-20abcc985414
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 3f683a78-d87f-4ecd-b618-bcf363f80ec4
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 7ec1021c-b1b6-4265-ae17-80126c350a63
+                Name: Cube18
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: f5e4879b-62e7-4966-8571-0b13053e3bc1
+                        Position: {X: -34.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 3b03cc9d-e47d-410b-b9e0-39a4f04ba532
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: c39f49ff-39be-4777-97a4-7dbb95325fde
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 7ece6b3f-f537-4f94-a21e-c187e37a2e45
+                Name: Ground
+                Components:
+                    5cf5f95b4451a71af07717e2598fde03: !TransformComponent
+                        Id: a3f5bdb0-fda1-4d1a-87f6-74d89ef7f61d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 100.0, Y: 1.0, Z: 100.0}
+                        Children: {}
+                    8f712f04a5a597cd330cecaa19e68da6: !ModelComponent
+                        Id: 78e38d48-faff-4e3b-adc0-0f55b2add106
+                        Model: 7a995c8e-f832-45c3-814e-f2a6f7db010a:Ground
+                        Materials: {}
+        -   Entity:
+                Id: 81120b01-f933-4fc0-b84f-459ef9bddb2e
+                Name: Cube42
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: aad917f8-03c1-4af9-b08c-06d17d28c3d4
+                        Position: {X: -82.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 55b63c04-24d3-4b1e-9e8b-97ccf2ef4e68
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: a6c3b39c-50ed-43da-a106-35f5761da086
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 830a2e32-380f-4966-a92a-48558e0e5596
+                Name: Cube5
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: afc83135-158d-4ada-9000-1ee98c0a00fb
+                        Position: {X: -8.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: c3946b49-b49a-4243-964b-6ee5e714f1f3
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 79e472af-76f0-47d1-81ed-c791aab698e9
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 86d39cee-d6f0-4a3b-b732-19f57291edfc
+                Name: Cube27
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 1f1a1cbb-b2c2-4d26-b946-83a3ebb42b9a
+                        Position: {X: -52.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 4a87bca9-480b-4962-99c2-f46146cc0dce
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: cd471c39-5aa5-45ba-bd5a-8721fefafb82
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 8b210b5c-a3c5-410e-aa62-b51f084ee19c
+                Name: Cube36
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: c15d42f3-8022-42ab-91c0-8b5fec540d5f
+                        Position: {X: -70.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 19799629-a2dd-4a8f-af33-c2ab33183176
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 0288792f-4522-44e1-9ce9-392009e03589
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 90b77e4b-688d-4364-818c-eeea17a28b1c
+                Name: Skybox
+                Components:
+                    e43060c1cca16fb99a708b645ef0aaa0: !TransformComponent
+                        Id: 1e2770f7-eb5b-4489-b819-2e2480d152ec
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f6416dcfe87b3ad53b93f73816e4a153: !BackgroundComponent
+                        Id: 3f76c5dc-ecb4-45e0-a705-4cbe5bad188f
+                        Texture: c6f48367-0ba0-44f5-9dcc-7a34c554196e:Skybox texture
+                    b19d824c1561e82e615047416f3cbc34: !LightComponent
+                        Id: 87bff637-1a1a-4338-93c9-f104666d971b
+                        Type: !LightSkybox
+                            Skybox: b0133471-4200-4f40-a5fc-b5b66dbff97a:Skybox
+        -   Entity:
+                Id: 9658f36c-f292-472d-a906-2716058461ee
+                Name: Cube3
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 228f087c-baff-4794-925e-430cadc1bee2
+                        Position: {X: -4.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: ffadbfcd-d266-41c1-8161-02845c88aaff
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: bb583f03-d568-4bb8-b665-bfd477db09a6
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 97d2c4cc-e8ab-4332-a847-0f71e3fe95ed
+                Name: Cube26
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 9110c78f-1f0c-46cd-8eee-3f263f5ce975
+                        Position: {X: -50.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 16b09f50-fbd8-469c-93ed-107bbb71f419
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: e8c52a4f-9557-4e38-9f97-5b55cb5acfbb
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 9a11ee27-c523-4b98-9fb2-9bcf98817c37
+                Name: Cube41
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 5a2eb90c-f4aa-4481-9fb5-ada4e941e689
+                        Position: {X: -80.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 11d4d3a1-766c-44a2-b6c7-8fdf10bdda42
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 6837e73e-ad10-4887-a913-9ef1815e27d6
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 9b0146cb-ec45-439b-b944-b0d5e8e1b6c4
+                Name: Cube40
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 163f6162-415f-4035-9d66-bf01021babee
+                        Position: {X: -78.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 2c53364d-c0fb-427d-93ca-0006fb03bfd9
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 1af2ab6e-2b81-4bc6-bea1-ccf78232c062
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: 9d8e0cb6-5349-400d-aaa1-bf0f8613454f
+                Name: Camera
+                Components:
+                    e00636d0bae71543e45d643e964961c5: !TransformComponent
+                        Id: 2b140684-f9ce-4531-a3bf-2eb62e2c0977
+                        Position: {X: 10.599991, Y: 2.6, Z: -11.0}
+                        Rotation: {X: 0.0, Y: 0.81915206, Z: 0.0, W: 0.57357645}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    80d1eb44eecfb314f5a4c0f6a699b1c7: !CameraComponent
+                        Id: eaeb953e-b91b-4dac-a584-c71290e6a49b
+                        Name: null
+                        Projection: Perspective
+                        Slot: d04c4573-4ca4-4fdb-a016-7ea222a709aa
+                    6260a719f5c1893ba6d1b5c1e9c5933c: !RaycastBugRepro.BasicCameraController,RaycastBugRepro
+                        Id: 0f371845-dce7-4829-8e9b-4fd33fbdd300
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+                    8f7f7e4a9229afd09189b975ad9ed136: !RaycastBugRepro.RaycastScript,RaycastBugRepro
+                        Id: 81a894c1-0e71-42d4-8fe1-606d9aff92ed
+        -   Entity:
+                Id: 9f3eeef5-2098-49bf-8364-8ce5142917ff
+                Name: Cube39
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: e4358a4b-ca4b-49b2-a14c-bd23dc3029b6
+                        Position: {X: -76.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 48229d7e-e0de-45c5-b04c-5d849011256b
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 90f60faa-053e-4687-9c6c-56156fd511ec
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: a0f6deef-543d-433a-9302-9281cd3b7150
+                Name: Cube33
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 7b53b09d-fa38-4e06-b101-1fa676ff25e6
+                        Position: {X: -64.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 4584caee-a76c-4b06-baf1-c64b418b792c
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 0843949c-c8f6-4e21-8ef4-889e7ff672a9
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: a439b2c4-d4c1-47cc-8a11-617d74262bfb
+                Name: Cube32
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 58148fe3-067d-4c48-8dbf-ee021335c6c2
+                        Position: {X: -62.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 09e8ffda-f45e-48a1-8958-520773871859
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 7f6aefdd-1cdc-4486-8238-84532cb73f97
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: b019585b-b3b9-4c94-92c7-527ec0ea561d
+                Name: Cube38
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: f3c6f869-e94d-4770-8965-1f2faa4f714d
+                        Position: {X: -74.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 95aca56b-3f76-43ae-8c89-397f9753bc8f
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: de227556-899b-4f77-ab8a-622bb9419bdb
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: b2be69d9-8a35-4d52-b8d8-604553b6be95
+                Name: Cube21
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 5746f141-f708-40f4-8edc-1224a7721ba0
+                        Position: {X: -40.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 3c9b8e9c-db42-466e-afda-b386db458c4b
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 75dfe4c7-b8a5-4fcb-8671-ade6d8a0cbc0
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: c5c4c1c4-9e48-419e-a466-9867cfca0ef3
+                Name: Cube47
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: e77cc015-250b-442d-8779-6ff482997f7e
+                        Position: {X: -92.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: a760da75-49e3-4ab0-889b-388f0c0d8591
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: d5a549bf-6860-4a7e-aec3-d0adf8d534e8
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: cada5239-c687-40a4-a8d8-b1b93d0d125c
+                Name: Cube7
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 2b435f76-2ede-4df8-a31b-125dbc7066fa
+                        Position: {X: -12.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: ca67256c-fbee-4fb8-b5d6-e16121051738
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 91e8a8fe-1387-4d20-8172-844e8f060f92
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: ce378de4-fc2b-4c86-baad-9f277ba79004
+                Name: Cube28
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 01fbde52-e1ad-4460-8d3e-6abc34a740b9
+                        Position: {X: -54.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 8fc23d9a-770d-420f-aeb1-e2a605c215a2
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: e67bd2d0-77df-442a-9117-a7ba172ce0dc
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: cffe63c8-a956-4d09-b1d3-9333b8467fdc
+                Name: Cube43
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: b22876be-9153-4cab-806a-73df9be00459
+                        Position: {X: -84.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 95713b5a-8128-4e13-b0ab-9c6aa98fe1ec
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 94aa10bc-96e8-450c-99de-2992569fdd65
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: dc32c243-b053-43a6-b94b-d39d161bb19d
+                Name: Cube8
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 8b372cf1-535c-4fce-9d31-150261d7ba02
+                        Position: {X: -14.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 6680a1a7-8a5e-45ca-b75c-4ddd45e13cee
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 1d388131-9aca-44db-ab82-0ff0d4ebb1d7
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: de3d834b-8672-4a9e-af6e-3efceddbb466
+                Name: Cube9
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 27321f50-9824-4ff4-8f14-0691fb218ffd
+                        Position: {X: -16.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 25994b99-50c7-4ac9-bc62-9ebd9794068d
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 097f472c-1ab6-4440-a397-2c713d1fb1be
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: e258eac2-d707-48a8-a192-29db132ed6f3
+                Name: Cube20
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 354dfa93-ddeb-4b6c-b86d-d1f27ecd9c6e
+                        Position: {X: -38.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 652379f3-dfb2-4102-aa5e-56bd622822f0
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 67a648ad-e2da-4366-85ca-9d4874afc2d9
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: e4aae835-8c11-4995-80c3-589a63d65470
+                Name: Cube10
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: dcdf4161-da61-4df1-889d-816345b4d350
+                        Position: {X: -18.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: ee7ffe3d-8d24-419c-9e0e-274e8b07d26e
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 4c183b3a-38f6-4fa8-8a9d-48db863e7972
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: e4bc2868-9775-43a4-8f48-2e1470466fd0
+                Name: Cube12
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 233f8e77-39e9-4f85-a001-d15de2d8db6b
+                        Position: {X: -22.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: beb56382-bd13-49f9-977c-74d8c08b8438
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 4f241f77-a99a-4b39-9671-e3bcdd29667a
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: e73bdee5-5e27-4333-a9f6-f275392e92bb
+                Name: Cube25
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 6ebe5b32-9f0d-4ec6-b138-7898aa588925
+                        Position: {X: -48.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 80f05e56-9798-4b53-915c-6318ade1993f
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: b6a02e8b-75c7-4146-a73b-af7aac686c08
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: eefeea22-0938-4c1c-94e3-c321fb6a7700
+                Name: Cube29
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 07898fed-1b9f-41cf-8bb2-aabffbb1a0fe
+                        Position: {X: -56.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 2c45b2d6-c3cb-4655-8f20-02d5a237973b
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 91b52dcf-7e2b-469e-adfd-e73d804e573e
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: ef748590-7b9f-457e-9042-6e4b4767a5ae
+                Name: Cube44
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 0a99366b-bfcd-4459-ab36-27c6b0d71600
+                        Position: {X: -86.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: d62f2069-3fc1-49f9-b791-e9163104270a
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 7b22058f-2235-47c7-8142-ab2e46e0dde0
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: f2e8de09-2f78-4c86-9908-66519c252634
+                Name: Cube31
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 5f192957-c751-4988-a521-66d78b4a5730
+                        Position: {X: -60.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: fb0cc41c-ce72-46b9-8f58-d4efc212ff82
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 25395cdd-388f-4e8b-b430-a6debc411e15
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: f70a7809-441f-435a-8563-7ca6fb7b4bce
+                Name: Cube30
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 25c7d58e-0649-4242-a6c3-cc10ffc049d6
+                        Position: {X: -58.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 4bbc8649-314a-4e68-881f-316892b11980
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 0b00c3a8-1402-4122-8d96-97d7065b83e7
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: f89569e8-e17c-40df-a999-32e1bf093720
+                Name: Cube15
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 8e871f16-9740-4ae1-b1ec-91d2083e3222
+                        Position: {X: -28.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: a58929f8-2869-4e57-b46d-a1cfd72eff5d
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: 7c4c1c4b-23fd-466f-9da0-caa5ae3cce25
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
+        -   Entity:
+                Id: fc8e1ee4-765b-496b-8560-98df0920c44f
+                Name: Directional light
+                Components:
+                    b809c4a7360f673f21dd5aea49817776: !TransformComponent
+                        Id: f258fc29-ba3a-42fd-8a90-ff8c3ea6022a
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 1.131334E-08, Y: -0.9659258, Z: -0.25881904, W: -4.222196E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6c881db8b5d5a89c0544f74b137f0a1b: !LightComponent
+                        Id: 27975a35-a8db-4e00-939b-b39c7ab8c378
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 20.0
+        -   Entity:
+                Id: fccc9769-17bc-428c-937d-084610977a9a
+                Name: Cube17
+                Components:
+                    7604c5597d5e4795db5c86cce2f4b1c1: !TransformComponent
+                        Id: 395ea9d2-9fd8-4fae-aae2-6c3b0aa0d500
+                        Position: {X: -32.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fda0a0ed31f7bc18c40562813698c3aa: !ModelComponent
+                        Id: 245cf236-8ea5-480e-b59b-2580020e9feb
+                        Model: d06a3461-5160-4759-8cdc-8bb51ff9f7aa:Cube
+                        Materials: {}
+                    dadbc245c6465bffdcb71e99e7dcecce: !Stride.BepuPhysics.StaticComponent,Stride.BepuPhysics
+                        Id: fa94e46d-2bc0-4e5e-9dd4-b2f861c39c81
+                        Collider: !Stride.BepuPhysics.Definitions.Colliders.CompoundCollider,Stride.BepuPhysics
+                            Colliders:
+                                39ed35d45acabf936072c5b606979b2c: !Stride.BepuPhysics.Definitions.Colliders.BoxCollider,Stride.BepuPhysics
+                                    Mass: 1.0
+                                    PositionLocal: {X: 0.0, Y: 0.0, Z: 0.0}
+                                    RotationLocal: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        SpringFrequency: 30.0
+                        SpringDampingRatio: 3.0
+                        FrictionCoefficient: 1.0
+                        MaximumRecoveryVelocity: 1000.0
+                        CollisionGroup: {}
+                        ContactEventHandler: null
