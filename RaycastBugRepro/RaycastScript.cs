@@ -1,4 +1,6 @@
 ﻿using Stride.BepuPhysics;
+using Stride.CommunityToolkit.Bepu;
+using Stride.CommunityToolkit.Engine;
 using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Graphics;
@@ -27,9 +29,11 @@ public class RaycastScript : SyncScript
         var nearPoint = viewPort.Unproject(new Vector3(Input.AbsoluteMousePosition, 0), camera.ProjectionMatrix, camera.ViewMatrix, Matrix.Identity);
         var farPoint = viewPort.Unproject(new Vector3(Input.AbsoluteMousePosition, 1.0f), camera.ProjectionMatrix, camera.ViewMatrix, Matrix.Identity);
 
+        var direction = Vector3.Normalize(farPoint - nearPoint);
+
         // simple raycast
-        var y = 15;
-        if (camera.Entity.GetSimulation().RayCast(nearPoint, farPoint, 1000, out var hitInfo))
+        var y = 16;
+        if (camera.Entity.GetSimulation().RayCast(nearPoint, direction, 1000, out var hitInfo))
         {
             DebugText.Print("Direct Hit: " + hitInfo.Collidable.Entity.Name, new Int2(10, y));
         }
@@ -39,15 +43,38 @@ public class RaycastScript : SyncScript
         }
 
         // penetrating raycast
-        y += 25;
+        y += 16;
         List<HitInfo> hits = new List<HitInfo>();
-        camera.Entity.GetSimulation().RayCastPenetrating(nearPoint, farPoint, 1000, hits);
+        camera.Entity.GetSimulation().RayCastPenetrating(nearPoint, direction, 1000, hits);
 
         for (int i = 0; i < hits.Count; i++)
         {
             HitInfo hit = hits[i];
             DebugText.Print($"Penetrating Hit {i}: {hit.Collidable.Entity.Name}", new Int2(10, y));
             y += 16;
+        }
+
+        // simple raycast using Stride.CommunityToolkit.Bepu extension method
+        if (camera.RaycastMouse(this, 1000, out var hit1))
+        {
+            DebugText.Print("Direct Hit (Toolkit): " + hit1.Collidable.Entity.Name, new Int2(10, y));
+            y += 16;
+        }
+        else
+        {
+            DebugText.Print("No hit (Toolkit)", new Int2(10, y));
+            y += 16;
+        }
+
+        // simple raycast using Stride.CommunityToolkit.Bepu GetPickRay
+        var ray = camera.GetPickRay(Input.MousePosition);
+        if (camera.Entity.GetSimulation().RayCast(ray.Position, ray.Direction, 1000, out var hitInfo2))
+        {
+            DebugText.Print("Direct Hit (Toolkit Ray): " + hitInfo2.Collidable.Entity.Name, new Int2(10, y));
+        }
+        else
+        {
+            DebugText.Print("No hit (Toolkit Ray)", new Int2(10, y));
         }
     }
 }
